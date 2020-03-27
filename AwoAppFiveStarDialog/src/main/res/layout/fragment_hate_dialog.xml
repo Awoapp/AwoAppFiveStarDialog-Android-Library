@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/consHateBg"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/dialogBgColor"
+    tools:context=".HateDialog">
+
+    <TextView
+        android:id="@+id/tvStarTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="@string/hate_dialog_title"
+        android:textColor="@color/textColor"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnYesPlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/consBar" />
+
+    <Button
+        android:id="@+id/btnNohate"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@color/dialogButtonColor"
+        android:text="@string/no_button"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnYesPlay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnYesPlay" />
+
+    <Button
+        android:id="@+id/btnYesPlay"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/dialogButtonColor"
+        android:text="@string/yes_button"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnNohate" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/consBar"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:background="@color/dialogBgColorDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:outlineAmbientShadowColor="@color/textColor"
+            android:outlineSpotShadowColor="@color/textColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

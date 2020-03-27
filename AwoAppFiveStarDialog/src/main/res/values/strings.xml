@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AwoAppFiveStarDialog</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="liked_app_title">Do you like the app?</string>
+    <string name="star_dialog_title">Great! Do you want to  give us  5 stars  in  Google play?</string>
+    <string name="btn_never">Never</string>
+    <string name="btn_later">Later</string>
+    <string name="hate_dialog_title">&#032;&#032;&#032; You want to tell  us how to we make the app better?</string>
+</resources>

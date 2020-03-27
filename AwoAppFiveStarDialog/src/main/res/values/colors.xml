@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Toolbar menu item tint color-->
+    <color name="textColor">#FFFFFF</color>
+    <color name="dialogBgColor">#405e42</color>
+    <color name="dialogBgColorDark">#16341a</color>
+    <color name="dialogButtonColor">#16341a</color>
+
+
+</resources>
