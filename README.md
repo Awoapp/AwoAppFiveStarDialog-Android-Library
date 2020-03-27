@@ -1,7 +1,7 @@
 # AwoAppFiveStarDialog-Android
 AwoAppFiveStarDialog library that simplifies the request to rating the application shown to the user and reduces the negative ratings.
 
-<b>SCREENSHOOT</b>
+<b>SCRENSHOOT</b>
 
 ![Alt text](/ss.png?raw=true "Optional Title")
 
