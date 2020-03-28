@@ -20,7 +20,7 @@ AwoAppFiveStarDialog library that simplifies the request to rating the applicati
 ### Include the library in your ``build.gradle``
 ```
 dependencies{
-implementation 'com.github.Awoapp:AwoAppFiveStarDialog-Android:1.0.0'
+implementation 'com.github.Awoapp:AwoAppFiveStarDialog-Android:1.0.2'
 }
 ```       
 
