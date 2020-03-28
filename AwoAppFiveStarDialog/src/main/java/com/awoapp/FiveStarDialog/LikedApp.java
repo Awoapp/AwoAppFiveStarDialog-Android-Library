@@ -61,7 +61,10 @@ public class LikedApp extends DialogFragment {
 
         view.findViewById(R.id.btnHate).setBackgroundColor(Color.parseColor(FiveStarConstants.BUTTON_COLOR));
         view.findViewById(R.id.btnLike).setBackgroundColor(Color.parseColor(FiveStarConstants.BUTTON_COLOR));
-
+        Button btnHate=view.findViewById(R.id.btnHate);
+        Button btnLike=view.findViewById(R.id.btnLike);
+        btnHate.setText(FiveStarConstants.HATE_NO);
+        btnLike.setText(FiveStarConstants.HATE_YES);
         /*Show hate dialog*/
         view.findViewById(R.id.btnHate).setOnClickListener(new View.OnClickListener() {
             @Override
